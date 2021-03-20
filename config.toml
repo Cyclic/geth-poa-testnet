@@ -12,7 +12,7 @@ HTTPCors = ["*"]
 HTTPVirtualHosts = ["*"]
 HTTPModules = ["web3", "eth", "txpool"]
 WSHost = "0.0.0.0"
-WSPort = 8545
+WSPort = 8546
 WSOrigins = ["*"]
 
 [Node.P2P]
