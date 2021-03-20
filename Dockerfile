@@ -1,8 +1,8 @@
-FROM ethereum/client-go:v1.9.13
+FROM ethereum/client-go
 
 WORKDIR /app
 ADD . /app
 
 VOLUME "/data"
 ENTRYPOINT "/app/entrypoint.sh"
-EXPOSE 8178 8546
+EXPOSE 8178 8546 8545
